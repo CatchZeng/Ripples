@@ -1,0 +1,6 @@
+framework module Ripples {
+  umbrella header "Ripples-umbrella.h"
+
+  export *
+  module * { export * }
+}

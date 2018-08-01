@@ -1,0 +1,6 @@
+framework module Pods_Ripples_Example {
+  umbrella header "Pods-Ripples_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

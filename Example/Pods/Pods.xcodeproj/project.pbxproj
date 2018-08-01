@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DBE0F7EBA50B1E6B20738732FA3E8E0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		54E537421DD157F081F5793E24D8C895 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		5B5A6FB2BC3503490CD939417FCE228A /* Ripples-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7142F7CEF6E25201EAE50C62D08569C /* Ripples-dummy.m */; };
+		670B5895DEAD550997093E10EFE2B5EA /* Ripples-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73E9D046AC588C6EA5B0E990C99EDA8C /* Ripples-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7790B97E94C950FE3FAAF59DEA085882 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		79E6747CD165A31F718E2D677F9EE902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		7E2425EEDF50F27D1D49948CEC6259ED /* Pods-Ripples_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F230ED2C8A44465D2226C6C5D5024D9 /* Pods-Ripples_Example-dummy.m */; };
+		C6F7ACD324421B36D932D938534B346E /* Ripples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B6034762698A118CF42318A10647E6 /* Ripples.swift */; };
+		D9CC1D54AE550F67BCAE3CE8F0EDAE32 /* Pods-Ripples_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EC17C86B838D3B493B6DC3D01393845 /* Pods-Ripples_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFE12D142ACDD7ABA91CEB4A622345D5 /* Pods-Ripples_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F8790F18EA8B69E68F7F4B818E44695 /* Pods-Ripples_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E391196356CC0A93A38812A504B05685 /* Pods-Ripples_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15807A37B5FA1026EC168BF80E16CE33 /* Pods-Ripples_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62297CE0EEC2831FC19BD8BCEC78187B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D088116F19DA395A70A190AF01A1767C;
+			remoteInfo = "Pods-Ripples_Example";
+		};
+		8D1A816C1775B348D461EB2403FED643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C84A530B7E6FD70ADDF0F66751F6C6FB;
+			remoteInfo = Ripples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FF20935FC38A7701D37545229F1987C /* Pods-Ripples_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ripples_Example-resources.sh"; sourceTree = "<group>"; };
+		11E3E02D9312E1CB09D9FD8E5311166B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15807A37B5FA1026EC168BF80E16CE33 /* Pods-Ripples_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ripples_Tests-dummy.m"; sourceTree = "<group>"; };
+		1EC17C86B838D3B493B6DC3D01393845 /* Pods-Ripples_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ripples_Example-umbrella.h"; sourceTree = "<group>"; };
+		1EDE563B8CB62444F5AA5B4EEEB7973F /* Pods_Ripples_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ripples_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25B6034762698A118CF42318A10647E6 /* Ripples.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Ripples.swift; path = Ripples/Classes/Ripples.swift; sourceTree = "<group>"; };
+		319ABB1AA0DC149065CCED047DFC3B81 /* Pods-Ripples_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ripples_Tests.modulemap"; sourceTree = "<group>"; };
+		3226F832C0318A94C042FAA8309E236C /* Pods-Ripples_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ripples_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A768EA0856EC6568163232E787D2A2C /* Ripples.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ripples.xcconfig; sourceTree = "<group>"; };
+		3EA0E85495FB384FB5CD7F68EEAD62F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF5725CAE301FC5516BE4F723F718B5 /* Pods-Ripples_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ripples_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4365AF631C80F27F859F74CE8A3107A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44F764E8963C4007E879608547CD13D2 /* Pods-Ripples_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Ripples_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F8790F18EA8B69E68F7F4B818E44695 /* Pods-Ripples_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Ripples_Tests-umbrella.h"; sourceTree = "<group>"; };
+		542D5436B2D324C412AF223E676F59A7 /* Pods-Ripples_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ripples_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		632DAFC1C374340E21D8D75D0AFC97EE /* Pods-Ripples_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ripples_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		67FE52ADA5C2543BC689B19E6383E516 /* Pods-Ripples_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Ripples_Example.modulemap"; sourceTree = "<group>"; };
+		6B9173DABBEF5747E32225F40C19010A /* Ripples.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Ripples.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7034CE045706D8BC1B851C53CB5B5706 /* Ripples.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Ripples.modulemap; sourceTree = "<group>"; };
+		7284FC9FA3A4C5093F908D66FC5A4EEA /* Ripples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ripples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E9D046AC588C6EA5B0E990C99EDA8C /* Ripples-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ripples-umbrella.h"; sourceTree = "<group>"; };
+		7F230ED2C8A44465D2226C6C5D5024D9 /* Pods-Ripples_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Ripples_Example-dummy.m"; sourceTree = "<group>"; };
+		8C392D9473DF834488FA033ADBB6FDA8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95446EE862D4617A5B1FE7A0D6A85D42 /* Pods-Ripples_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ripples_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		957CF06ECEF9FD1F674F0DA33D5467DE /* Pods-Ripples_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ripples_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A08F2E42911FC38B67C0C508DF15D7FD /* Pods_Ripples_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ripples_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14EE53FD2CA6BED041086A1E0E48F52 /* Pods-Ripples_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Ripples_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B518F941AE97625C4D10EB0355525390 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C5F0FEBD8FC472FDF1DEB4C3B03392FB /* Pods-Ripples_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Ripples_Tests-resources.sh"; sourceTree = "<group>"; };
+		C61E63B7DB1642908CE9FF4BD2DB8651 /* Ripples-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ripples-prefix.pch"; sourceTree = "<group>"; };
+		D7142F7CEF6E25201EAE50C62D08569C /* Ripples-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ripples-dummy.m"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E3D7B38305282561B791FA0C7E823274 /* Pods-Ripples_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ripples_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EBDFC217A7FA1E45C845BD258FED8F45 /* Pods-Ripples_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Ripples_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229E7A3130285B6D454510302657C117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7790B97E94C950FE3FAAF59DEA085882 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24775C67EF4887202AB829819639BBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E537421DD157F081F5793E24D8C895 /* Foundation.framework in Frameworks */,
+				0DBE0F7EBA50B1E6B20738732FA3E8E0 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC6099CB1A0966910184C4A374C878D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E6747CD165A31F718E2D677F9EE902 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083E339E54D867AAF8A345D192EE7385 /* Ripples */ = {
+			isa = PBXGroup;
+			children = (
+				25B6034762698A118CF42318A10647E6 /* Ripples.swift */,
+				1173BE02383284A8B70B44E67FEC5DB4 /* Pod */,
+				52909982E52FFC64B30768EDE2E7F57D /* Support Files */,
+			);
+			name = Ripples;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0C01812A5A34B1FCC94D70C5E34527EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A08F2E42911FC38B67C0C508DF15D7FD /* Pods_Ripples_Example.framework */,
+				1EDE563B8CB62444F5AA5B4EEEB7973F /* Pods_Ripples_Tests.framework */,
+				7284FC9FA3A4C5093F908D66FC5A4EEA /* Ripples.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1173BE02383284A8B70B44E67FEC5DB4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8C392D9473DF834488FA033ADBB6FDA8 /* LICENSE */,
+				B518F941AE97625C4D10EB0355525390 /* README.md */,
+				6B9173DABBEF5747E32225F40C19010A /* Ripples.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		11BEC10FF7BA242BA02F8D1FEEE0CA7F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				083E339E54D867AAF8A345D192EE7385 /* Ripples */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		17372C884FC435073FB96C2A7A42799A /* Pods-Ripples_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3EA0E85495FB384FB5CD7F68EEAD62F8 /* Info.plist */,
+				319ABB1AA0DC149065CCED047DFC3B81 /* Pods-Ripples_Tests.modulemap */,
+				B14EE53FD2CA6BED041086A1E0E48F52 /* Pods-Ripples_Tests-acknowledgements.markdown */,
+				3226F832C0318A94C042FAA8309E236C /* Pods-Ripples_Tests-acknowledgements.plist */,
+				15807A37B5FA1026EC168BF80E16CE33 /* Pods-Ripples_Tests-dummy.m */,
+				542D5436B2D324C412AF223E676F59A7 /* Pods-Ripples_Tests-frameworks.sh */,
+				C5F0FEBD8FC472FDF1DEB4C3B03392FB /* Pods-Ripples_Tests-resources.sh */,
+				4F8790F18EA8B69E68F7F4B818E44695 /* Pods-Ripples_Tests-umbrella.h */,
+				EBDFC217A7FA1E45C845BD258FED8F45 /* Pods-Ripples_Tests.debug.xcconfig */,
+				95446EE862D4617A5B1FE7A0D6A85D42 /* Pods-Ripples_Tests.release.xcconfig */,
+			);
+			name = "Pods-Ripples_Tests";
+			path = "Target Support Files/Pods-Ripples_Tests";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		52909982E52FFC64B30768EDE2E7F57D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				11E3E02D9312E1CB09D9FD8E5311166B /* Info.plist */,
+				7034CE045706D8BC1B851C53CB5B5706 /* Ripples.modulemap */,
+				3A768EA0856EC6568163232E787D2A2C /* Ripples.xcconfig */,
+				D7142F7CEF6E25201EAE50C62D08569C /* Ripples-dummy.m */,
+				C61E63B7DB1642908CE9FF4BD2DB8651 /* Ripples-prefix.pch */,
+				73E9D046AC588C6EA5B0E990C99EDA8C /* Ripples-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Ripples";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				11BEC10FF7BA242BA02F8D1FEEE0CA7F /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0C01812A5A34B1FCC94D70C5E34527EC /* Products */,
+				C3DFECCC53AB506BF1B435E2026853E7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8338FA4EF6392DA2B3B32151DDF68AE5 /* Pods-Ripples_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4365AF631C80F27F859F74CE8A3107A1 /* Info.plist */,
+				67FE52ADA5C2543BC689B19E6383E516 /* Pods-Ripples_Example.modulemap */,
+				957CF06ECEF9FD1F674F0DA33D5467DE /* Pods-Ripples_Example-acknowledgements.markdown */,
+				44F764E8963C4007E879608547CD13D2 /* Pods-Ripples_Example-acknowledgements.plist */,
+				7F230ED2C8A44465D2226C6C5D5024D9 /* Pods-Ripples_Example-dummy.m */,
+				3FF5725CAE301FC5516BE4F723F718B5 /* Pods-Ripples_Example-frameworks.sh */,
+				0FF20935FC38A7701D37545229F1987C /* Pods-Ripples_Example-resources.sh */,
+				1EC17C86B838D3B493B6DC3D01393845 /* Pods-Ripples_Example-umbrella.h */,
+				632DAFC1C374340E21D8D75D0AFC97EE /* Pods-Ripples_Example.debug.xcconfig */,
+				E3D7B38305282561B791FA0C7E823274 /* Pods-Ripples_Example.release.xcconfig */,
+			);
+			name = "Pods-Ripples_Example";
+			path = "Target Support Files/Pods-Ripples_Example";
+			sourceTree = "<group>";
+		};
+		C3DFECCC53AB506BF1B435E2026853E7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8338FA4EF6392DA2B3B32151DDF68AE5 /* Pods-Ripples_Example */,
+				17372C884FC435073FB96C2A7A42799A /* Pods-Ripples_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D76EB0A2F515CC5194AE558FF39C753 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				670B5895DEAD550997093E10EFE2B5EA /* Ripples-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC86F8A8453F9466AE07B78A7F893E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFE12D142ACDD7ABA91CEB4A622345D5 /* Pods-Ripples_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA5CDDA243D01730710E0C158420B316 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9CC1D54AE550F67BCAE3CE8F0EDAE32 /* Pods-Ripples_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		116605914B79DFE8624750352E2145CA /* Pods-Ripples_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740800BF676C5AFF4135C421130813EB /* Build configuration list for PBXNativeTarget "Pods-Ripples_Tests" */;
+			buildPhases = (
+				362DB223EEE3DC3151857383BFE29CA6 /* Sources */,
+				EBC6099CB1A0966910184C4A374C878D /* Frameworks */,
+				BDC86F8A8453F9466AE07B78A7F893E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04082D5CF2873405B5D851C46CC3C18D /* PBXTargetDependency */,
+			);
+			name = "Pods-Ripples_Tests";
+			productName = "Pods-Ripples_Tests";
+			productReference = 1EDE563B8CB62444F5AA5B4EEEB7973F /* Pods_Ripples_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C84A530B7E6FD70ADDF0F66751F6C6FB /* Ripples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CEA71D792C1175B604A9BE42994A3C2 /* Build configuration list for PBXNativeTarget "Ripples" */;
+			buildPhases = (
+				0F2A5568201B19290DB63239865A5A09 /* Sources */,
+				24775C67EF4887202AB829819639BBCB /* Frameworks */,
+				0D76EB0A2F515CC5194AE558FF39C753 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ripples;
+			productName = Ripples;
+			productReference = 7284FC9FA3A4C5093F908D66FC5A4EEA /* Ripples.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D088116F19DA395A70A190AF01A1767C /* Pods-Ripples_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE8D7034872D0B73F9796989AB2B2F5F /* Build configuration list for PBXNativeTarget "Pods-Ripples_Example" */;
+			buildPhases = (
+				6437DC6E6777B9776B79699C7BA0A66B /* Sources */,
+				229E7A3130285B6D454510302657C117 /* Frameworks */,
+				CA5CDDA243D01730710E0C158420B316 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11F46A78079571937ADF43F727390509 /* PBXTargetDependency */,
+			);
+			name = "Pods-Ripples_Example";
+			productName = "Pods-Ripples_Example";
+			productReference = A08F2E42911FC38B67C0C508DF15D7FD /* Pods_Ripples_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0940;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0C01812A5A34B1FCC94D70C5E34527EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D088116F19DA395A70A190AF01A1767C /* Pods-Ripples_Example */,
+				116605914B79DFE8624750352E2145CA /* Pods-Ripples_Tests */,
+				C84A530B7E6FD70ADDF0F66751F6C6FB /* Ripples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F2A5568201B19290DB63239865A5A09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B5A6FB2BC3503490CD939417FCE228A /* Ripples-dummy.m in Sources */,
+				C6F7ACD324421B36D932D938534B346E /* Ripples.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362DB223EEE3DC3151857383BFE29CA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E391196356CC0A93A38812A504B05685 /* Pods-Ripples_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6437DC6E6777B9776B79699C7BA0A66B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E2425EEDF50F27D1D49948CEC6259ED /* Pods-Ripples_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04082D5CF2873405B5D851C46CC3C18D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Ripples_Example";
+			target = D088116F19DA395A70A190AF01A1767C /* Pods-Ripples_Example */;
+			targetProxy = 62297CE0EEC2831FC19BD8BCEC78187B /* PBXContainerItemProxy */;
+		};
+		11F46A78079571937ADF43F727390509 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ripples;
+			target = C84A530B7E6FD70ADDF0F66751F6C6FB /* Ripples */;
+			targetProxy = 8D1A816C1775B348D461EB2403FED643 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		516D6BA92CC04F5B176BCFB92F50A2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95446EE862D4617A5B1FE7A0D6A85D42 /* Pods-Ripples_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ripples_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ripples_Tests/Pods-Ripples_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		724B920456B3490086EF3B0AB963B32D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A768EA0856EC6568163232E787D2A2C /* Ripples.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Ripples/Ripples-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ripples/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ripples/Ripples.modulemap";
+				PRODUCT_MODULE_NAME = Ripples;
+				PRODUCT_NAME = Ripples;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CCE8F7493AE7986453B682C41452582A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D7B38305282561B791FA0C7E823274 /* Pods-Ripples_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ripples_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ripples_Example/Pods-Ripples_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E81B6488DCA313D5DEA15181C6D668B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBDFC217A7FA1E45C845BD258FED8F45 /* Pods-Ripples_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ripples_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ripples_Tests/Pods-Ripples_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EDB0CBEE9DF0F74C2A0842887D94AE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 632DAFC1C374340E21D8D75D0AFC97EE /* Pods-Ripples_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Ripples_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Ripples_Example/Pods-Ripples_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FC55F5EE4E7B0930C45E0014667DB34F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A768EA0856EC6568163232E787D2A2C /* Ripples.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Ripples/Ripples-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ripples/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ripples/Ripples.modulemap";
+				PRODUCT_MODULE_NAME = Ripples;
+				PRODUCT_NAME = Ripples;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CEA71D792C1175B604A9BE42994A3C2 /* Build configuration list for PBXNativeTarget "Ripples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC55F5EE4E7B0930C45E0014667DB34F /* Debug */,
+				724B920456B3490086EF3B0AB963B32D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740800BF676C5AFF4135C421130813EB /* Build configuration list for PBXNativeTarget "Pods-Ripples_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E81B6488DCA313D5DEA15181C6D668B3 /* Debug */,
+				516D6BA92CC04F5B176BCFB92F50A2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE8D7034872D0B73F9796989AB2B2F5F /* Build configuration list for PBXNativeTarget "Pods-Ripples_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDB0CBEE9DF0F74C2A0842887D94AE27 /* Debug */,
+				CCE8F7493AE7986453B682C41452582A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

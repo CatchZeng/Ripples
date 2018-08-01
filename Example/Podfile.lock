@@ -1,0 +1,16 @@
+PODS:
+  - Ripples (0.1.0)
+
+DEPENDENCIES:
+  - Ripples (from `../`)
+
+EXTERNAL SOURCES:
+  Ripples:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Ripples: af234de495947c051e8d59985e894b920076fbaf
+
+PODFILE CHECKSUM: 797da2a4fba286c6a173920b34ddb08a7bb8598d
+
+COCOAPODS: 1.5.0
