@@ -9,6 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Ripples'
   s.version          = '0.1.0'
+  s.swift_version    = '4.1'
   s.summary          = 'Ripple animation for iOS. '
   s.description      = 'Ripple animation for iOS. It is very useful for bluetooth app.'
   s.homepage         = 'https://github.com/catchzeng/Ripples'
