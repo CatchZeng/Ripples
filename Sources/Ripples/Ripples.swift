@@ -71,7 +71,7 @@ open class Ripples: CAReplicatorLayer, CAAnimationDelegate {
     
     open var rippleInterval: TimeInterval = 0
     
-    open var timingFunction: CAMediaTimingFunction? = CAMediaTimingFunction(name: kCAMediaTimingFunctionDefault) {
+    open var timingFunction: CAMediaTimingFunction? = CAMediaTimingFunction(name: CAMediaTimingFunctionName.default) {
         didSet {
             if let animationGroup = animationGroup {
                 animationGroup.timingFunction = timingFunction
@@ -86,7 +86,7 @@ open class Ripples: CAReplicatorLayer, CAAnimationDelegate {
     
     fileprivate let ripple = CALayer()
     fileprivate var animationGroup: CAAnimationGroup!
-    fileprivate var alpha: CGFloat = 0.5
+    fileprivate var alpha: CGFloat = 0.9
     fileprivate weak var prevSuperlayer: CALayer?
     fileprivate var prevLayerIndex: Int?
     
@@ -131,12 +131,12 @@ open class Ripples: CAReplicatorLayer, CAAnimationDelegate {
     fileprivate func setupNotifications() {
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(save),
-                                               name: NSNotification.Name.UIApplicationDidEnterBackground,
+                                               name: UIApplication.didEnterBackgroundNotification,
                                                object: nil)
         
         NotificationCenter.default.addObserver(self,
                                                selector: #selector(resume),
-                                               name: NSNotification.Name.UIApplicationWillEnterForeground,
+                                               name: UIApplication.willEnterForegroundNotification,
                                                object: nil)
     }
     
@@ -195,7 +195,7 @@ open class Ripples: CAReplicatorLayer, CAAnimationDelegate {
     
     @objc internal func save() {
         prevSuperlayer = superlayer
-        prevLayerIndex = prevSuperlayer?.sublayers?.index(where: {$0 === self})
+        prevLayerIndex = prevSuperlayer?.sublayers?.firstIndex(where: {$0 === self})
     }
     
     @objc internal func resume() {
