@@ -126,6 +126,9 @@ open class Ripples: CAReplicatorLayer, CAAnimationDelegate {
         animationGroup = nil
     }
     
+    open func resumeAnimation() {
+        resume()
+    }
     // MARK: - Private Methods
     
     fileprivate func setupNotifications() {
